@@ -1,0 +1,70 @@
+ {
+  "projects": [
+    {
+      "date": "07/10/2022",
+      "title": "NATOUR",
+      "description": "This Tour booking fully responsive website, I created with the help of HTML and SCSS. Pure CSS is used to open Pop-up, Cool effects and animations in cards and buttons. Video background and modern looking form along with Attractive navigation button to open and close.",
+      "url": "https://exciting-tours.netlify.app/",
+      "imgSrc": "img/natour.png"
+    },
+    {
+      "date": "20/10/2022",
+      "title": "Budgety",
+      "description": "Cool and great looking project which allows us to add income and expanses for a month.project have two great features- 1)remove item if we want,everything updated automatically. 2)there is a percentage that each of expenses is of the total income.",
+      "url": "https://deep-wallet.netlify.app/",
+      "imgSrc": "img/budgety1.png"
+    },
+    {
+      "date": "07/10/2022",
+      "title": "TECHY STAR",
+      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "url": "https://techy-star.netlify.app/",
+      "imgSrc": "img/techystar.png"
+    },
+
+    {
+      "date": "11/10/2022",
+      "title": "VIDEO HUB",
+      "description": "In this project i mainly used react's frontend library Chakra-UI .react-router-dom is used and have Login,SignUp and Video uploading page alog with videos page in which you can see demo videos.",
+      "url": "https://ytube-hub.netlify.app/",
+      "imgSrc": "img/videoHub.png"
+    },
+    {
+      "date": "15/10/2022",
+      "title": "XCrypto",
+      "description": "In this project ,I used REACT JS and CHAKRA-UI.I used an external API from CoinGecko and fetch data through axios.You can check coins value in INR,USD and EUR. You can also check a single coins static detail with the help of chart.",
+      "url": "https://xcypto-app.netlify.app/",
+      "imgSrc": "img/crypto.png"
+    },
+
+    {
+      "date": "17/10/2022",
+      "title": "REACT CART",
+      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "url": "https://redux-basic-project.netlify.app/",
+      "imgSrc": "img/shoping.png"
+    },
+    {
+      "date": "20/10/2022",
+      "title": "PORTFOLIO",
+      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "url": "/",
+      "imgSrc": "img/portfolio.png"
+    },
+    {
+      "date": "20/10/2022",
+      "title": "DICE GAME",
+      "description": "I developed this Game project by using JavaScript.This game is played by two Players only.a player can rolls a dice as many times as he wishes but if no.1 is come on rolling then his turn with all score are gone after that next persons turn .the person get 100 score first is winner.",
+      "url": "https://cube-rolling.netlify.app/",
+      "imgSrc": "img/dice.png"
+    },
+    
+    {
+      "date": "20/10/2022",
+      "title": "MI STORE CLONE",
+      "description": "In this project i made a clone of Mi-store with the help of React js along with react-bootstrap and bootstrap.",
+      "url": "https://clone-of-mistore.netlify.app/",
+      "imgSrc": "img/miStore.png"
+    }
+  ]
+}

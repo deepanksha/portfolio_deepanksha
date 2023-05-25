@@ -1,0 +1,146 @@
+nav{
+    width: 100%;
+    height: 100px;
+    background-color:$color1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 $p;
+    position: sticky;
+    top: 0;
+    z-index: 60;
+
+    >h2{
+        font-size: 2rem;
+        
+        // >span:first-of-type{
+        //     color: $color3;
+        // }
+        // >span:last-of-type{
+        //     color: $color6;
+        // }
+
+    }
+
+   >div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+     font-size: 1.2rem;
+    a{
+      // color: $color6;  
+      font-weight: 500;
+      transition: all 0.3s;
+      letter-spacing: 1px;
+      // &:hover{
+      //   // color: $color3;
+      //   transform: scale(1.1);
+      // }
+    }
+   }
+
+   > a > button{
+    border: none;
+    padding: 0.5rem 2rem;
+    background-color: $color3;
+    cursor: pointer;
+    color: $color4;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition:all 0.3s ;
+    &:hover{
+        color: $color3;
+        background-color: transparent;
+        border: 1px solid $color6_1 ;
+        
+      }
+   }  
+    
+  
+}
+.navBtn{
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 150;
+  width: 40px; 
+  height: 40px;
+  border: none;
+  font-size: 1.4rem;
+  display: none  ;
+  background-color: $color4;
+  color: $color3;
+     border-radius: 50%;
+    text-align: center;
+    transition: all 0.3s;
+  &:hover{
+    transform: scale(1.2);
+    
+  }
+ }
+
+
+.navPhone{
+  transition: all 0.5s;
+   transform: translateY(-200%);
+  width: 100%;
+  height: 100vh;
+  background-color: $color3;
+  padding: $p_base;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+
+  >h2{
+    font-size: 2rem;
+    color: $color4;
+  }
+
+  >div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    a{
+      font-size: 1.3rem !important;
+      color: $color4;
+      letter-spacing: 1px;
+      font-weight: 600;
+      transition: all 0.3s;
+      &:hover{
+        color: $color3;
+        transform: skewY(0deg) skewX(0deg) scale(1.1);
+      }
+    }
+  }
+
+  >a>button{
+    font-size: 1.3rem;
+    // border: 1px solid $color3_1;
+    border: none;
+    padding: 0.5rem 2rem;
+    background-color: $color1;
+    cursor: pointer;
+    color: $color3;
+    letter-spacing: 1px; 
+    font-weight: 600;
+    transition: all 0.5s;
+
+    &:hover{
+     transform: scale(1.1);
+     border: none;
+    }
+  }
+
+}   
+
+.navPhoneComes{
+  transform: translateY(0);
+} 
